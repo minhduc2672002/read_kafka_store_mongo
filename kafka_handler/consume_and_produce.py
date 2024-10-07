@@ -1,7 +1,7 @@
 from confluent_kafka import Producer
 
 
-from KafkaHandler.consumer_interface import ConsumerInterface
+from kafka_handler.consumer_interface import ConsumerInterface
 
 class KafkaConsumeAndProduce(ConsumerInterface):
     def __init__(self, consumer_config,producer_config,topic_source,topic_destination):
