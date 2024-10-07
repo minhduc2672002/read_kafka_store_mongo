@@ -1,5 +1,0 @@
-# Bỏ qua tất cả các file .conf
-*.conf
-
-# Bỏ qua thư mục __pycache__ và tất cả các nội dung bên trong
-__pycache__/
